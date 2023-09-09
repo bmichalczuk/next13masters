@@ -33,7 +33,7 @@ const products: ProductListItemProps[] = [
 			category: "ciuchy",
 			coverImage: {
 				src: "/kubek3.jpg",
-				alt: "Piekarnik",
+				alt: "dsfsd",
 			},
 			id: "3",
 		},
@@ -45,7 +45,7 @@ const products: ProductListItemProps[] = [
 			category: "ciuchy",
 			coverImage: {
 				src: "/kubek1.png",
-				alt: "Super Mario Buty",
+				alt: "tere",
 			},
 			id: "4",
 		},

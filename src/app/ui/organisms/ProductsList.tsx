@@ -11,7 +11,7 @@ const products: ProductListItemProps[] = [
 				src: "/kubek1.png",
 				alt: "Super buty",
 			},
-			id: 1,
+			id: "1",
 		},
 	},
 	{
@@ -23,7 +23,7 @@ const products: ProductListItemProps[] = [
 				src: "/kubek2.jpg",
 				alt: "Pizza",
 			},
-			id: 2,
+			id: "2",
 		},
 	},
 	{
@@ -35,7 +35,7 @@ const products: ProductListItemProps[] = [
 				src: "/kubek3.jpg",
 				alt: "Piekarnik",
 			},
-			id: 3,
+			id: "3",
 		},
 	},
 	{
@@ -47,14 +47,17 @@ const products: ProductListItemProps[] = [
 				src: "/kubek1.png",
 				alt: "Super Mario Buty",
 			},
-			id: 4,
+			id: "4",
 		},
 	},
 ];
 
 export const ProductsList = () => {
 	return (
-		<ul className="grid grid-cols-1 gap-8 sm:grid sm:grid-cols-2 xl:grid-cols-4">
+		<ul
+			data-testid="products-list"
+			className=" grid max-w-4xl grid-cols-1 gap-8 sm:grid sm:grid-cols-2 xl:grid-cols-4"
+		>
 			{products.map(({ product }: ProductListItemProps) => (
 				<li key={product.id}>
 					<ProductListItem product={product} />

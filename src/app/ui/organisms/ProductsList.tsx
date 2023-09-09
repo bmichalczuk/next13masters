@@ -45,7 +45,7 @@ const products: ProductListItemProps[] = [
 			category: "ciuchy",
 			coverImage: {
 				src: "/kubek1.png",
-				alt: "Super Mario Buty",
+				alt: "fds",
 			},
 			id: "4",
 		},

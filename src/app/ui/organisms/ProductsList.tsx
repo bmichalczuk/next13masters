@@ -45,7 +45,9 @@ const products: ProductListItemProps[] = [
 			category: "ciuchy",
 			coverImage: {
 				src: "/kubek1.png",
-				alt: "tere",
+
+				alt: "fds",
+
 			},
 			id: "4",
 		},

@@ -4,7 +4,7 @@ export type ProductListItemProps = {
 		price: number;
 		category: string;
 		coverImage: coverImageProps;
-		id: string;
+		id: number;
 	};
 };
 

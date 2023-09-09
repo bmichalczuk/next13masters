@@ -8,6 +8,7 @@
 		"start": "next start",
 		"lint": "next lint --fix --dir src"
 	},
+  "engines": { "node": "20.6.x" },
 	"dependencies": {
 		"@types/node": "20.5.9",
 		"@types/react": "18.2.21",
